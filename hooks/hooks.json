@@ -1,0 +1,20 @@
+{
+  "hooks": [
+    {
+      "trigger": "SessionStart",
+      "action": "If memory-curator is active, load memory/hot-cache.md into context. Summarize active campaign and open blockers in 3 bullets."
+    },
+    {
+      "trigger": "UserPromptSubmit",
+      "action": "If prompt matches any metadata.triggers in the library, suggest the matching engine by name before responding."
+    },
+    {
+      "trigger": "PostToolUse",
+      "action": "If the tool produced content or audit data, check if content-scorekeeper or trust-signal-auditor should run next. Suggest if relevant."
+    },
+    {
+      "trigger": "Stop",
+      "action": "Offer to save session findings to memory if memory-curator is active. Summarize key decisions and open loops."
+    }
+  ]
+}

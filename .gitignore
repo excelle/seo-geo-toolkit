@@ -1,0 +1,17 @@
+.DS_Store
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+node_modules/
+.env
+.env.local
+memory/hot-cache.md
+memory/decisions.md
+memory/open-loops.md
+memory/archive/
+!memory/.gitkeep
+!memory/research/.gitkeep
+!memory/content/.gitkeep
+!memory/audit/.gitkeep

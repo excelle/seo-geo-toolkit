@@ -1,0 +1,6 @@
+# Memory directory
+# HOT: memory/hot-cache.md (auto-loaded, 80 lines / 25KB cap)
+# WARM: memory/research/, memory/content/, memory/audit/
+# COLD: memory/archive/
+
+# Hot cache is recreated per session. Do not commit hot-cache.md to git.

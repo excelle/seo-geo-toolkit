@@ -1,0 +1,3 @@
+# Content memory tier
+# Store completed content-engine, ai-citation-optimizer, snippet-crafter outputs here.
+# Naming: YYYY-MM-DD-<topic>.md

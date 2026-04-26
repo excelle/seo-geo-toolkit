@@ -1,0 +1,3 @@
+# Audit memory tier
+# Store completed page-diagnostics, site-health-audit, trust-signal-auditor, and content-scorekeeper reports here.
+# Naming: YYYY-MM-DD-<domain-or-topic>.md

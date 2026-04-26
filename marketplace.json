@@ -1,0 +1,33 @@
+{
+  "id": "excelle-seo-geo-toolkit",
+  "name": "SEO & GEO Skills Toolkit",
+  "description": "16 engines and 12 commands for Search Engine Optimization (SEO) and Generative Engine Optimization (GEO). Features original REACH (72-item content quality) and NEXUS (36-item domain trust) frameworks. Agent-native skill format compatible with Claude Code, Cursor, OpenCode, Codex, Windsurf, Cline, and 30+ other AI agents.",
+  "version": "1.0.0",
+  "license": "MIT",
+  "author": "excelle",
+  "repository": "https://github.com/excelle/seo-geo-toolkit",
+  "homepage": "https://github.com/excelle/seo-geo-toolkit",
+  "tags": [
+    "seo",
+    "geo",
+    "search-engine-optimization",
+    "generative-engine-optimization",
+    "content-optimization",
+    "ai-citations",
+    "agent-skills",
+    "claude-code",
+    "cursor",
+    "opencode"
+  ],
+  "engines": 16,
+  "commands": 12,
+  "install_methods": {
+    "git_clone": "git clone https://github.com/excelle/seo-geo-toolkit.git",
+    "submodule": "git submodule add https://github.com/excelle/seo-geo-toolkit.git <skills-dir>/seo-geo",
+    "claude_code": "claude --plugin-dir ./seo-geo-skills",
+    "cursor": "Copy SKILL.md files to .cursor/skills/",
+    "cline": "Clone to .cline/skills/seo-geo",
+    "skills_cli": "npx skills add excelle/seo-geo-toolkit -y",
+    "single_skill": "npx skills add excelle/seo-geo-toolkit -s <engine-name> -y"
+  }
+}
